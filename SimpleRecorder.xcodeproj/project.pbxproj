@@ -13,8 +13,6 @@
 		782215A51F2149EC007ECFE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782215A31F2149EC007ECFE0 /* Main.storyboard */; };
 		782215A71F2149EC007ECFE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 782215A61F2149EC007ECFE0 /* Assets.xcassets */; };
 		782215AA1F2149EC007ECFE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 782215A81F2149EC007ECFE0 /* LaunchScreen.storyboard */; };
-		782215B51F2149EC007ECFE0 /* SimpleRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782215B41F2149EC007ECFE0 /* SimpleRecorderTests.m */; };
-		782215C01F2149EC007ECFE0 /* SimpleRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 782215BF1F2149EC007ECFE0 /* SimpleRecorderUITests.m */; };
 		782215CF1F214A75007ECFE0 /* AudioRec.m in Sources */ = {isa = PBXBuildFile; fileRef = 782215CE1F214A75007ECFE0 /* AudioRec.m */; };
 /* End PBXBuildFile section */
 
@@ -47,11 +45,7 @@
 		782215A91F2149EC007ECFE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		782215AB1F2149EC007ECFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782215B01F2149EC007ECFE0 /* SimpleRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		782215B41F2149EC007ECFE0 /* SimpleRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRecorderTests.m; sourceTree = "<group>"; };
-		782215B61F2149EC007ECFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782215BB1F2149EC007ECFE0 /* SimpleRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		782215BF1F2149EC007ECFE0 /* SimpleRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleRecorderUITests.m; sourceTree = "<group>"; };
-		782215C11F2149EC007ECFE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		782215CD1F214A75007ECFE0 /* AudioRec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioRec.h; sourceTree = "<group>"; };
 		782215CE1F214A75007ECFE0 /* AudioRec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioRec.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -85,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				782215991F2149EC007ECFE0 /* SimpleRecorder */,
-				782215B31F2149EC007ECFE0 /* SimpleRecorderTests */,
-				782215BE1F2149EC007ECFE0 /* SimpleRecorderUITests */,
 				782215981F2149EC007ECFE0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -125,24 +117,6 @@
 				7822159B1F2149EC007ECFE0 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		782215B31F2149EC007ECFE0 /* SimpleRecorderTests */ = {
-			isa = PBXGroup;
-			children = (
-				782215B41F2149EC007ECFE0 /* SimpleRecorderTests.m */,
-				782215B61F2149EC007ECFE0 /* Info.plist */,
-			);
-			path = SimpleRecorderTests;
-			sourceTree = "<group>";
-		};
-		782215BE1F2149EC007ECFE0 /* SimpleRecorderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				782215BF1F2149EC007ECFE0 /* SimpleRecorderUITests.m */,
-				782215C11F2149EC007ECFE0 /* Info.plist */,
-			);
-			path = SimpleRecorderUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782215B51F2149EC007ECFE0 /* SimpleRecorderTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +271,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				782215C01F2149EC007ECFE0 /* SimpleRecorderUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -518,6 +490,7 @@
 				782215C61F2149EC007ECFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782215C71F2149EC007ECFE0 /* Build configuration list for PBXNativeTarget "SimpleRecorderTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +499,7 @@
 				782215C91F2149EC007ECFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		782215CA1F2149EC007ECFE0 /* Build configuration list for PBXNativeTarget "SimpleRecorderUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +508,7 @@
 				782215CC1F2149EC007ECFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
